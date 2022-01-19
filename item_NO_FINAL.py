@@ -25,11 +25,11 @@ df_final = pd.DataFrame(columns = ["ITEMNO","INV_ITEM_DESCRIPTION","Year","Jan",
 # print(df_main.columns)
 index = 100
 print(df_final)
-# df_final.at[index,'ITEMNO']= 999
-# print(df_final)
-# for i in unique_item_no_tuple:
-#     for j in date_list:
-#         # rslt_df = l2df[l2df['ITEMNO'] == 8177]
-#         df_final.at['ITEMNO']= i
+df_final.at[index,'ITEMNO']= 999
+print(df_final)
+for i in unique_item_no_tuple:
+    for j in date_list:
+        # rslt_df = l2df[l2df['ITEMNO'] == 8177]
+        df_final.at['ITEMNO']= i
 
 
